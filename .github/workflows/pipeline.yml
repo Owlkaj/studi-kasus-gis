@@ -1,0 +1,34 @@
+# Otomatisasi pipeline: berjalan saat data berubah, tiap Senin, atau manual.
+name: GIS Asset Pipeline
+
+on:
+  push:
+    paths:
+      - "data/**"
+      - "src/**"
+  schedule:
+    - cron: "0 20 * * 0"   # Minggu 20:00 UTC = Senin pagi di Selandia Baru
+  workflow_dispatch:
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run GIS pipeline
+        run: python src/gis_pipeline.py
+
+      - name: Upload outputs (GeoJSON, CSV, SQL, peta)
+        uses: actions/upload-artifact@v4
+        with:
+          name: gis-pipeline-output
+          path: output/

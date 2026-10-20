@@ -1,0 +1,6 @@
+{"type": "FeatureCollection", "name": "maintenance_zones", "features": [
+{"type": "Feature", "properties": {"zone_id": "Z1", "zone_name": "Zone A - North West", "crew": "Crew Alpha"}, "geometry": {"type": "Polygon", "coordinates": [[[174.745, -36.835], [174.745, -36.851], [174.766, -36.8495], [174.763, -36.835], [174.745, -36.835]]]}},
+{"type": "Feature", "properties": {"zone_id": "Z2", "zone_name": "Zone B - North East", "crew": "Crew Bravo"}, "geometry": {"type": "Polygon", "coordinates": [[[174.763, -36.835], [174.766, -36.8495], [174.785, -36.848], [174.785, -36.835], [174.763, -36.835]]]}},
+{"type": "Feature", "properties": {"zone_id": "Z3", "zone_name": "Zone C - South East", "crew": "Crew Charlie"}, "geometry": {"type": "Polygon", "coordinates": [[[174.766, -36.8495], [174.768, -36.865], [174.785, -36.865], [174.785, -36.848], [174.766, -36.8495]]]}},
+{"type": "Feature", "properties": {"zone_id": "Z4", "zone_name": "Zone D - South West", "crew": "Crew Delta"}, "geometry": {"type": "Polygon", "coordinates": [[[174.745, -36.851], [174.745, -36.865], [174.768, -36.865], [174.766, -36.8495], [174.745, -36.851]]]}}
+]}

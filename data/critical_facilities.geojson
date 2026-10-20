@@ -1,0 +1,10 @@
+{"type": "FeatureCollection", "name": "critical_facilities", "features": [
+{"type": "Feature", "properties": {"facility_id": "F01", "facility_name": "Central General Hospital", "facility_type": "Hospital"}, "geometry": {"type": "Point", "coordinates": [174.772, -36.852]}},
+{"type": "Feature", "properties": {"facility_id": "F02", "facility_name": "Harbour View School", "facility_type": "School"}, "geometry": {"type": "Point", "coordinates": [174.758, -36.842]}},
+{"type": "Feature", "properties": {"facility_id": "F03", "facility_name": "Eastside Primary School", "facility_type": "School"}, "geometry": {"type": "Point", "coordinates": [174.779, -36.843]}},
+{"type": "Feature", "properties": {"facility_id": "F04", "facility_name": "Westgate College", "facility_type": "School"}, "geometry": {"type": "Point", "coordinates": [174.751, -36.856]}},
+{"type": "Feature", "properties": {"facility_id": "F05", "facility_name": "Southern Aged Care Home", "facility_type": "Aged Care"}, "geometry": {"type": "Point", "coordinates": [174.77, -36.861]}},
+{"type": "Feature", "properties": {"facility_id": "F06", "facility_name": "City Library", "facility_type": "Library"}, "geometry": {"type": "Point", "coordinates": [174.763, -36.85]}},
+{"type": "Feature", "properties": {"facility_id": "F07", "facility_name": "Central Fire Station", "facility_type": "Fire Station"}, "geometry": {"type": "Point", "coordinates": [174.766, -36.847]}},
+{"type": "Feature", "properties": {"facility_id": "F08", "facility_name": "Community Recreation Centre", "facility_type": "Community Centre"}, "geometry": {"type": "Point", "coordinates": [174.755, -36.862]}}
+]}
